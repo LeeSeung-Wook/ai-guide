@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Home</h1>
-</body>
-</html>
+{{> layout/header}}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card p-5 text-center">
+            <h1 class="display-4 fw-bold text-primary mb-4">Welcome to Demo Blog</h1>
+            <p class="lead text-muted mb-5">Spring Boot 3.3.4와 Mustache로 구축된 현대적인 게시판 프로젝트입니다.</p>
+            <div>
+                <a href="/board" class="btn btn-primary btn-lg px-5">게시글 보러가기</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> layout/footer}}
